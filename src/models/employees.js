@@ -156,7 +156,7 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'cheifmaster@proudmary.com'
+                number: 'cheifmaster@xbox.com'
             },
         ]
     },
@@ -179,17 +179,17 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'sadu@loversrock.com'
+                number: 'peter@sony.com'
             },
         ]
     },
     {
-        name: "Erykah Badu",
-        role: "Artist",
+        name: "coach carter",
+        role: "coach",
         image: 'https://sistersofresistance.files.wordpress.com/2011/03/erykahbadu.jpg',
         contacts: [
             {
-                method: 'Call Tyrone',
+                method: 'Call plays',
                 number: '1-800-999-2626'
             },
             {
@@ -202,7 +202,7 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'ebadu@baglady.com'
+                number: 'coach@coach.com'
             },
         ]
     },
