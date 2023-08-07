@@ -162,7 +162,7 @@ const employees = [
     },
     {
         name: "spider-man",
-        role: "Artist",
+        role: "web-slinger",
         image: 'https://www.radiopunto.it/wp/wp-content/uploads/2021/12/a1a1sade-300x300.jpg',
         contacts: [
             {
