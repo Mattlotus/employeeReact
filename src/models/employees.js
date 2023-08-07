@@ -161,7 +161,7 @@ const employees = [
         ]
     },
     {
-        name: "Sade",
+        name: "spider-man",
         role: "Artist",
         image: 'https://www.radiopunto.it/wp/wp-content/uploads/2021/12/a1a1sade-300x300.jpg',
         contacts: [
