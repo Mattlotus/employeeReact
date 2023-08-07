@@ -144,7 +144,7 @@ const employees = [
         contacts: [
             {
                 method: 'Call Office',
-                number: '1-800-999-2626'
+                number: '1-800-123-4567'
             },
             {
                 method: 'Call Mobile',
@@ -152,7 +152,7 @@ const employees = [
             },
             {
                 method: 'SMS',
-                number: '412-555-1233'
+                number: '412-555-5555'
             },
             {
                 method: 'Email',
