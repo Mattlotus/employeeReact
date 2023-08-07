@@ -163,7 +163,7 @@ const employees = [
     {
         name: "spider-man",
         role: "web-slinger",
-        image: 'https://www.radiopunto.it/wp/wp-content/uploads/2021/12/a1a1sade-300x300.jpg',
+        image: 'https://deadline.com/wp-content/uploads/2023/06/tom-holland-spider-man-4.jpg',
         contacts: [
             {
                 method: 'Call Office',

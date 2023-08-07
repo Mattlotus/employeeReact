@@ -1,5 +1,5 @@
 import { useState, createContext, useEffect } from "react";
-import employees from "../models/employees";
+import employees from "./employees";
 
 
 // create context
