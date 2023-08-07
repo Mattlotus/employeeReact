@@ -138,8 +138,8 @@ const employees = [
         ]
     },
     {
-        name: "Tina Turner",
-        role: "Singer",
+        name: "Master Cheif",
+        role: "Brute",
         image: 'https://assets.vogue.com/photos/646fcec2b5c56bc40d66a0d6/4:3/pass/undefined',
         contacts: [
             {
@@ -156,7 +156,7 @@ const employees = [
             },
             {
                 method: 'Email',
-                number: 'tturner@proudmary.com'
+                number: 'cheifmaster@proudmary.com'
             },
         ]
     },
