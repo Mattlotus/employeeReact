@@ -1,38 +1,235 @@
 .App {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 40px auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  /* max-width: 800px; */
+  height: fit-content;
+}
+
+.homePage{
+  border: 2px solid orange;
+  width: 390px;
+  margin-right: 3px;
+  padding: 5px;
+  /* background-color: silver; */
+}
+
+.homePage > * , .employeePage > *{
+  margin: 3px;
+  padding: 5px;
+}
+
+.employeePage{
+  border: 2px solid saddlebrown;
+  width: 390px;
+  margin-left: 3px;
+  padding: 5px;
+  /* background-color: silver; */
+}
+
+.header{
+  border: 2px solid skyblue;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  border: 2px solid green;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  width: 95%;
+  height: 70%;
+  border-radius: 10px;
+  border: 1px solid grey;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input::placeholder{
+  /* font-weight: bold;
+  font-size: 20px; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* does not do what i thought */
+input:focus{
+  border: none;
+  outline: 1px solid black; 
+  /* shout out to kenny for this ^ */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.employeeList{
+  border: 2px solid purple;
+  height: 493px;
+  overflow-y: scroll;
+}
+
+.employeeList::-webkit-scrollbar{
+  display: none; 
+  /* hide scrol bar without removing its functionaliy!!!!! */
+}
+
+.employeeContainer{
+  border: 2px solid red;
+  margin: 2px;
+  height: 75.8px;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.employeeContainer:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.employeeContainer .left{
+  /* border: 1px solid yellowgreen; */
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+img{
+  height: fill;
+  width: fill;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.employeeContainer .right {
+  /* border: 1px solid purple; */
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.employeeContainer .right > * {
+  margin: 2px 0;
+}
+
+.name{
+
+}
+
+.role{
+  color: grey;
+  font-size: .8em;
+}
+
+/* EMPLOYEE PAGE */
+
+.contactContainer .right{
+  /* border: 1px solid red */
+}
+
+.arrow{
+  color: skyblue;
+  font-weight: 500;
+  font-size: 30px;
+  text-align: left;
+  margin-left: -135px;
+  /* border: 1px solid red; */
+}
+
+.arrow:hover{
+  cursor: pointer;
+}
+
+.arrowContainer{
+  /* width: 50%; */
+  /* margin-left: -250px; */
+  /* border: 1px solid green; */
+}
+
+.employeeInfo {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 20px;
+}
+.employeeInfo > *:hover{
+  background-color: white !important;
+  cursor: default;
+  /* slick way to get rid of employee page hover */
+}
+
+.employeeInfo > * {
+  margin: 0;
+}
+
+.employeePage .employeeContainer{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  height: 100px;
+  display: flex;
+  padding: 10px 0;
+  padding-left: 20px;
+}
+.employeePage .employeeContainer .right{
+  margin-left: 30px;
+  margin-top: 20px
+}
+.employeePage .employeeContainer .name{
+  font-size: 1.3em;
+}
+
+.employeePage img {
+  height: 100px;
+  width: 100px;
+}
+
+.contactContainer{
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  letter-spacing: normal !important;
+}
+
+.employeeInfo:first-child{
+  background-color: yellow;
+}
+
+/* doesnt target what i thought it would target */
+.employeeInfo:last-child{
+  /* background-color: red; */
+  /* border: none; */
+}
+
+.contactContainer *{
+  margin: 0 10px;
+}
+
+.employeePage .left > *{
+  /* border: 1px solid lime; */
+  margin: 2px 10px
+}
+
+.contactNumber{
+  color: grey;
+  font-size: .8em;
+}
+
+.employeePage .right .arrow{
+  /* border: 1px solid yellow; */
+  font-weight: bold;
+  color: grey;
+  font-size: 1.5em;
 }
